@@ -10,8 +10,13 @@ html, body {
     width: 100vw;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
 body {
-    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background: url('../imagens/fundo.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -37,14 +42,19 @@ iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
-    width: 269px;
+    width: 267px;
     height: 471px;
 }
 
 section#redes-sociais {
     position: relative;
-    top: 25%;
     text-align: right;
+}
+
+section#redes-sociais > div {
+    position: absolute;
+    top: 25vh;
+    left: 95%;
 }
 
 section#redes-sociais img {
