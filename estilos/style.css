@@ -26,6 +26,19 @@ main {
     position: relative;
 }
 
+main > a {
+    position: absolute;
+    bottom: 0vh;
+    color: #9122db;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > a:hover {
+    color: white;
+    transition: .5s;
+}
+
 section#telefone {
     position: absolute;
     top: 50%;
